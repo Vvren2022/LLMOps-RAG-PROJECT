@@ -68,7 +68,7 @@ class _StubLLM:
 @pytest.fixture
 def stub_model_loader(monkeypatch):
     # Patch both module paths to cover imports via `utils.model_loader` and `multi_doc_chat.utils.model_loader`
-    import utils.model_loader as ml_mod
+    import multi_doc_chat.utils.model_loader as ml_mod
     from multi_doc_chat.utils import model_loader as ml_mod2
 
     class FakeApiKeyMgr:

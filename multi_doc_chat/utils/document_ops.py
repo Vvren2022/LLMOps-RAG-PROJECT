@@ -1,7 +1,7 @@
 from __future__ import annotations
 from pathlib import Path
 from typing import Iterable, List
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
 from multi_doc_chat.logger import GLOBAL_LOGGER as log
 from multi_doc_chat.exception.custom_exception import DocumentPortalException
@@ -42,3 +42,6 @@ class FastAPIFileAdapter:
     def getbuffer(self) -> bytes:
         self._uf.file.seek(0)
         return self._uf.file.read()
+
+   
+    

@@ -19,6 +19,8 @@ dependencies = [
     "langsmith>=0.4.28",
     "openai>=1.107.3",
     "pandas>=2.3.3",
+    "pypdf>=6.5.0",
+    "pytest>=9.0.2",
     "python-dotenv==1.1.1",
     "python-multipart==0.0.20",
     "structlog>=25.4.0",

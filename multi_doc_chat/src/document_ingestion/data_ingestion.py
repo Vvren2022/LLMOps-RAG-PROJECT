@@ -1,7 +1,7 @@
 from __future__ import annotations
 from pathlib import Path
 from typing import Iterable, List, Optional, Dict, Any
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from multi_doc_chat.utils.model_loader import ModelLoader
