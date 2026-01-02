@@ -1,6 +1,6 @@
 # Python cache & virtualenv
 __pycache__/
-# *.py[cod]
+*.py[cod]
 *.so
 *.pyd
 *.pyo
