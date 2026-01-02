@@ -29,7 +29,7 @@
         "secrets": [
           {
             "name": "apikeyliveclass",
-            "valueFrom": "arn:aws:secretsmanager:us-east-1:306570692493:secret:apikeyliveclass-EykEZf"
+            "valueFrom": "arn:aws:secretsmanager:us-west-2:419126140868:secret:apikeyliveclass-wetWGl"
           }
   
         ],
@@ -37,7 +37,7 @@
           "logDriver": "awslogs",
           "options": {
             "awslogs-group": "/ecs/llmopstdlive",
-            "awslogs-region": "us-east-1",
+            "awslogs-region": "us-west-2",
             "awslogs-stream-prefix": "ecs",
             "awslogs-create-group": "true"
           }
